@@ -93,7 +93,7 @@
             "vm_name": "lineage-libvirt",
             "output_directory": "output/lineage-libvirt",
             "accelerator": "kvm",
-            "qemu_binary": "/usr/libexec/qemu-kvm",
+            "qemu_binary": "/usr/bin/qemu-kvm",
             "boot_wait": "20s",
             "boot_command": [
                 "<enter><wait>",
@@ -141,7 +141,7 @@
             "vm_name": "lineage-nash-libvirt",
             "output_directory": "output/lineage-nash-libvirt",
             "accelerator": "kvm",
-            "qemu_binary": "/usr/libexec/qemu-kvm",
+            "qemu_binary": "/usr/bin/qemu-kvm",
             "boot_wait": "20s",
             "boot_command": [
                 "<enter><wait>",

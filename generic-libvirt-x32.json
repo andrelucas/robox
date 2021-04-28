@@ -46,7 +46,7 @@
       "vm_name": "generic-debian9-x32-libvirt",
       "output_directory": "output/generic-debian9-x32-libvirt",
       "accelerator": "kvm",
-      "qemu_binary": "/usr/libexec/qemu-kvm",
+      "qemu_binary": "/usr/bin/qemu-kvm",
       "boot_wait": "10s",
       "boot_command": [
         "<esc><wait><esc><wait><esc><wait><esc><wait><esc><wait><esc><wait>",
